@@ -1,14 +1,18 @@
 ## Your First Progressive Web App
 Open West 2018
 
-### Getting Started
-#### Reliable
+## Getting Started
+
+### Reliable
 - [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync)
-#### Secure
+
+### Secure
 - Served over HTTPS
-#### Fast
+
+### Fast
 - [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
-#### Engaging
+
+### Engaging
 - [Configured Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
 - [Installable](https://developers.google.com/web/fundamentals/app-install-banners/#criteria)
 - [Push Notifications](https://developers.google.com/web/fundamentals/push-notifications/)
@@ -19,12 +23,13 @@ Open West 2018
 3. Service Worker
 4. Cache Strategy
 
-### PWA Support
+## PWA Support
 - [Is Service Worker Ready](https://jakearchibald.github.io/isserviceworkerready/index.html#moar)
 
 ## Push Notifications
 Two API's
-### Push API
+
+### [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
 The Push API gives web applications the ability to receive messages pushed to them from a server, whether or not the web app is in the foreground, or even currently loaded.
 
 ### [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
@@ -51,6 +56,7 @@ Economical use of data. Design for minimal data usage and be judicious in what y
 ### Developer Tools
 
 ![Lighthouse Logo](/assets/images/pwa-lighthouse.png)
+
 #### [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
 Lighthouse is an open-source tool from Google that audits a web app for PWA features
