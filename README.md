@@ -5,6 +5,7 @@ Open West 2018
 1. 
 
 ### PWA Support
+- [Is Service Worker Ready](https://jakearchibald.github.io/isserviceworkerready/index.html#moar)
 
 ### Developer Tools
 
@@ -16,12 +17,12 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 ![Lighthouse example report](/assets/images/pwa-lighthouse-example.png)
 
 ### Resources
-
+- [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
 - [Hacker News readers as Progressive Web Apps](https://hnpwa.com/)
-- [Production Progressive Web Apps With JavaScript Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
+- 🎥[Production Progressive Web Apps With JavaScript Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
 
 #### Offline
-- [Offline Web Apps - Udacity Course](https://www.udacity.com/course/offline-web-applications--ud899)
+- 📚[Offline Web Apps - Udacity Course](https://www.udacity.com/course/offline-web-applications--ud899)
   - IndexedDB & Service Worker
 - [Service Worker Cookbok](https://serviceworke.rs/)
 
@@ -40,9 +41,13 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 
 
 ### Helpful Libraries
+- [Workbox](https://developers.google.com/web/tools/workbox/)
+  - JavaScript Libraries for adding offline support to web apps
 - [IndexedDB, but with promises](https://github.com/jakearchibald/idb)
 
 ## Frameworks
+
+🎥[Production PWA with Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
 
 {:.center}
 ![Polymer Logo](/assets/images/p-logo.png)
@@ -50,6 +55,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 ### Polymer
 #### [Polymer PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit)
 [Demo](https://pwa-starter-kit.appspot.com/)
+🎥[Google I/O Video](https://www.youtube.com/watch?v=we3lLo-UFtk)
 ##### What is Included
 - All the PWA goodness (manifest, service worker)
 - Responsive layout
@@ -74,3 +80,8 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - Web Application Manifest + favicons
 - Mobile-friendly meta-viewport
 - Lighthouse score of 90+/100
+
+### Angular
+### [Service Worker Support](https://angular.io/guide/service-worker-getting-started)
+`ng add  @angular/pwa --project *project-name*`
+[Angular Service Worker Intro](https://angular.io/guide/service-worker-intro)
