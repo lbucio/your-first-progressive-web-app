@@ -51,7 +51,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 
 🎥[Production PWA with Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
 
-{:.center}
+{:.center.framework__logo}
 ![React Logo](/assets/images/react-logo.png)
 
 ### React
@@ -59,26 +59,30 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 `create-react-app my-great-app`
 ##### What is Included
 
-{:.center}
+{:.center.framework__logo}
 ![Preact Logo](/assets/images/preact-logo.png)
 
 ### Preact
 #### [Preact PWA Starter Kit](https://github.com/developit/preact-cli)
+
 `preact create my-great-app`
+
 ##### What is Included
 - 100/100 Lighthouse score, right out of the box
 - Fully automatic code splitting for routes
 - Auto-generated Service Workers for offline caching powered by sw-precache
 - PRPL pattern support for efficient loading
 
-{:.center}
+{:.center.framework__logo}
 ![Polymer Logo](/assets/images/p-logo.png)
 
 ### Polymer
 #### [Polymer PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit)
+
 [Demo](https://pwa-starter-kit.appspot.com/)
 
 🎥[Google I/O Video](https://www.youtube.com/watch?v=we3lLo-UFtk)
+
 ##### What is Included
 - All the PWA goodness (manifest, service worker)
 - Responsive layout
@@ -91,12 +95,14 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - Unit and integrating testing starting points
 - Documentation about other advanced patterns.
 
-{:.center}
+{:.center.framework__logo}
 ![Vue.js Logo](/assets/images/vuejs-logo.png)
 
 ### Vue.js
 #### [PWA Starter Template](https://github.com/vuejs-templates/pwa)
+
 `vue init pwa my-project`
+
 ##### What is Included
 - Service Worker precaching of application shell + static assets (prod)
 - Script (async chunk) preloading using <link rel="preload">
@@ -106,5 +112,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 
 ### Angular
 ### [Service Worker Support](https://angular.io/guide/service-worker-getting-started)
+
 `ng add  @angular/pwa --project *project-name*`
+
 [Angular Service Worker Intro](https://angular.io/guide/service-worker-intro)
