@@ -52,6 +52,22 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 🎥[Production PWA with Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
 
 {:.center}
+![React Logo](/assets/images/react-logo.png)
+
+### React
+#### [React PWA Starter Kit](https://github.com/facebookincubator/create-react-app)
+`create-react-app my-great-app`
+##### What is Included
+
+{:.center}
+![Preact Logo](/assets/images/preact-logo.png)
+
+### Preact
+#### [Preact PWA Starter Kit](https://github.com/developit/preact-cli)
+`preact create my-great-app`
+##### What is Included
+
+{:.center}
 ![Polymer Logo](/assets/images/p-logo.png)
 
 ### Polymer
