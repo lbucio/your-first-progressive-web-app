@@ -7,6 +7,8 @@ Open West 2018
 ### PWA Support
 
 ### Developer Tools
+
+![Lighthouse Logo](/assets/images/pwa-lighthouse.png)
 #### [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
 Lighthouse is an open-source tool from Google that audits a web app for PWA features
