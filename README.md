@@ -13,6 +13,8 @@ Open West 2018
 
 Lighthouse is an open-source tool from Google that audits a web app for PWA features
 
+![Lighthouse example report](/assets/images/pwa-lighthouse-example.png)
+
 ### Resources
 
 - [Hacker News readers as Progressive Web Apps](https://hnpwa.com/)
