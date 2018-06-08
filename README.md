@@ -61,6 +61,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 #### [React PWA Starter Kit](https://github.com/facebookincubator/create-react-app)
 `create-react-app my-great-app`
 ##### What is Included
+- By default, the production build is a fully functional, offline-first Progressive Web App
 - An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria.
 
 ---
