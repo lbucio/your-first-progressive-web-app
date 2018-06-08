@@ -42,6 +42,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 
 ## Frameworks
 
+![Polymer Logo](/assets/images/p-logo.png)
 ### Polymer
 #### [Polymer PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit)
 (Demo)[https://pwa-starter-kit.appspot.com/]
