@@ -66,6 +66,10 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 #### [Preact PWA Starter Kit](https://github.com/developit/preact-cli)
 `preact create my-great-app`
 ##### What is Included
+- 100/100 Lighthouse score, right out of the box
+- Fully automatic code splitting for routes
+- Auto-generated Service Workers for offline caching powered by sw-precache
+- PRPL pattern support for efficient loading
 
 {:.center}
 ![Polymer Logo](/assets/images/p-logo.png)
