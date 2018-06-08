@@ -21,6 +21,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - [Hacker News readers as Progressive Web Apps](https://hnpwa.com/)
 - [PWA Rocks](https://pwa.rocks/)
 - 🎥[Production Progressive Web Apps With JavaScript Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
+- 🎥[PWA Roadshow](https://www.youtube.com/watch?v=z2JgN6Ae-Bo&list=PLNYkxOF6rcICnIOm4cfylT0-cEfytBtYt)
 
 #### Offline
 - 📚[Offline Web Apps - Udacity Course](https://www.udacity.com/course/offline-web-applications--ud899)
