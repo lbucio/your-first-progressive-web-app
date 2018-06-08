@@ -2,10 +2,51 @@
 Open West 2018
 
 ### Getting Started
-1. 
+#### Reliable
+- [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync)
+#### Secure
+- Served over HTTPS
+#### Fast
+- [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
+#### Engaging
+- [Configured Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
+- [Installable](https://developers.google.com/web/fundamentals/app-install-banners/#criteria)
+- [Push Notifications](https://developers.google.com/web/fundamentals/push-notifications/)
+  - [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
+  - [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
+
+1. App Shell Model
+3. Service Worker
+4. Cache Strategy
 
 ### PWA Support
 - [Is Service Worker Ready](https://jakearchibald.github.io/isserviceworkerready/index.html#moar)
+
+## Push Notifications
+Two API's
+### Push API
+The Push API gives web applications the ability to receive messages pushed to them from a server, whether or not the web app is in the foreground, or even currently loaded.
+
+### [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
+The Notifications API allows web pages to control the display of system notifications to the end user.
+
+## App Shell 
+🎥[Instant Loading with the App Shell Model](https://www.youtube.com/watch?v=QhUzmR8eZAo)
+
+The app shell should ideally:
+
+- Load fast
+- Use as little data as possible
+- Use static assets from a local cache
+- Separate content from navigation
+- Retrieve and display page-specific content (HTML, JSON, etc.)
+- Optionally, cache dynamic content
+
+Reliable performance that is consistently fast. Repeat visits are extremely quick. Static assets and the UI (e.g. HTML, JavaScript, images and CSS) are cached on the first visit so that they load instantly on repeat visits. Content may be cached on the first visit, but is typically loaded when it is needed.
+
+Native-like interactions. By adopting the app shell model, you can create experiences with instant, native-application-like navigation and interactions.
+
+Economical use of data. Design for minimal data usage and be judicious in what you cache because listing files that are non-essential (large images that are not shown on every page, for instance) result in browsers downloading more data than is strictly necessary. Even though data is relatively cheap in western countries, this is not the case in emerging markets where connectivity is expensive and data is costly.
 
 ### Developer Tools
 
@@ -18,6 +59,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 
 ### Resources
 - [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
+- [Updates to Add to Home Screen Behaviour](https://developers.google.com/web/updates/2018/06/a2hs-updates)
 - [Hacker News readers as Progressive Web Apps](https://hnpwa.com/)
 - [PWA Rocks](https://pwa.rocks/)
 - 🎥[Production Progressive Web Apps With JavaScript Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
@@ -63,6 +105,8 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 ##### What is Included
 - By default, the production build is a fully functional, offline-first Progressive Web App
 - An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria.
+- All static site assets are cached so that your page loads fast on subsequent visits, regardless of network connectivity 
+- Add to Homescreen capable
 
 ---
 
