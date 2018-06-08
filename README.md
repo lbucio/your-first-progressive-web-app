@@ -1,6 +1,8 @@
 ## Your First Progressive Web App
 Open West 2018
 
+---
+
 ## Getting Started
 
 ### Reliable
@@ -25,6 +27,10 @@ Open West 2018
 
 ## PWA Support
 - [Is Service Worker Ready](https://jakearchibald.github.io/isserviceworkerready/index.html#moar)
+
+---
+
+# Technologies
 
 ## Push Notifications
 Two API's
@@ -65,11 +71,13 @@ Economical use of data. Design for minimal data usage and be judicious in what y
   - [Firefox](https://platform-status.mozilla.org/#app-manifest) **In Development**
   - [Webkit](https://webkit.org/status/#specification-web-app-manifest) **In Development**
   
-### Safari
+#### Safari
 - [Configuring Web Applications](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 - [Add to Homescreen elements for Safari on iOS](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#add_to_homescreen_elements_for_safari_on_ios)
 
-### Developer Tools
+--- 
+
+## Developer Tools
 
 ![Lighthouse Logo](/assets/images/pwa-lighthouse.png)
 
@@ -78,6 +86,8 @@ Economical use of data. Design for minimal data usage and be judicious in what y
 Lighthouse is an open-source tool from Google that audits a web app for PWA features
 
 ![Lighthouse example report](/assets/images/pwa-lighthouse-example.png)
+
+---
 
 ## Resources
 - [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
@@ -111,6 +121,8 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - [Workbox](https://developers.google.com/web/tools/workbox/)
   - JavaScript Libraries for adding offline support to web apps
 - [IndexedDB, but with promises](https://github.com/jakearchibald/idb)
+
+---
 
 ## Frameworks
 
