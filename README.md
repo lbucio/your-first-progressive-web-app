@@ -53,6 +53,22 @@ Native-like interactions. By adopting the app shell model, you can create experi
 
 Economical use of data. Design for minimal data usage and be judicious in what you cache because listing files that are non-essential (large images that are not shown on every page, for instance) result in browsers downloading more data than is strictly necessary. Even though data is relatively cheap in western countries, this is not the case in emerging markets where connectivity is expensive and data is costly.
 
+## Service Worker
+
+- [Service Worker Demos](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker)
+- [Service Worker, What are you?](https://kosamari.com/notes/Service-Worker-what-are-you)
+
+## Web App Manifest
+- [Browser Support](https://caniuse.com/#search=web%20app%20manifest)
+  - Chrome **Enabled by Default**
+  - Edge **Shipped**
+  - [Firefox](https://platform-status.mozilla.org/#app-manifest) **In Development**
+  - [Webkit](https://webkit.org/status/#specification-web-app-manifest) **In Development**
+  
+### Safari
+- [Configuring Web Applications](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+- [Add to Homescreen elements for Safari on iOS](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#add_to_homescreen_elements_for_safari_on_ios)
+
 ### Developer Tools
 
 ![Lighthouse Logo](/assets/images/pwa-lighthouse.png)
@@ -63,7 +79,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 
 ![Lighthouse example report](/assets/images/pwa-lighthouse-example.png)
 
-### Resources
+## Resources
 - [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
 - [Updates to Add to Home Screen Behaviour](https://developers.google.com/web/updates/2018/06/a2hs-updates)
 - [Hacker News readers as Progressive Web Apps](https://hnpwa.com/)
