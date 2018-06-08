@@ -54,15 +54,21 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 {:.center.framework__logo}
 ![React Logo](/assets/images/react-logo.png)
 
+{:.center}
 ### React
+
 #### [React PWA Starter Kit](https://github.com/facebookincubator/create-react-app)
 `create-react-app my-great-app`
 ##### What is Included
 
+---
+
 {:.center.framework__logo}
 ![Preact Logo](/assets/images/preact-logo.png)
 
+{:.center}
 ### Preact
+
 #### [Preact PWA Starter Kit](https://github.com/developit/preact-cli)
 
 `preact create my-great-app`
@@ -73,10 +79,14 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - Auto-generated Service Workers for offline caching powered by sw-precache
 - PRPL pattern support for efficient loading
 
+---
+
 {:.center.framework__logo}
 ![Polymer Logo](/assets/images/p-logo.png)
 
+{:.center}
 ### Polymer
+
 #### [Polymer PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit)
 
 [Demo](https://pwa-starter-kit.appspot.com/)
@@ -95,10 +105,14 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - Unit and integrating testing starting points
 - Documentation about other advanced patterns.
 
+---
+
 {:.center.framework__logo}
 ![Vue.js Logo](/assets/images/vuejs-logo.png)
 
+{:.center}
 ### Vue.js
+
 #### [PWA Starter Template](https://github.com/vuejs-templates/pwa)
 
 `vue init pwa my-project`
@@ -110,6 +124,9 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - Mobile-friendly meta-viewport
 - Lighthouse score of 90+/100
 
+---
+
+{:.center}
 ### Angular
 ### [Service Worker Support](https://angular.io/guide/service-worker-getting-started)
 
