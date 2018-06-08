@@ -10,9 +10,11 @@ Open West 2018
 - [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync)
 
 ### Secure
-- Served over HTTPS
+- [Served over HTTPS](https://developers.google.com/web/fundamentals/security/)
   - Geolocation API
   - Service Worker
+- [Content Security Policy](https://developers.google.com/web/fundamentals/security/csp/)
+- [Preventing Mixed Content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content)
 
 ### Fast
 - [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
@@ -24,7 +26,9 @@ Open West 2018
   - [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
   - [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 
-4. Cache Strategy
+### Courses 📚
+- 📚[Asynchronous JavaScript Requests](https://www.udacity.com/course/asynchronous-javascript-requests--ud109)
+- 📚[ES6 - JavaScript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)
 
 ## PWA Support
 - [Is Service Worker Ready](https://jakearchibald.github.io/isserviceworkerready/index.html#moar)
@@ -64,6 +68,7 @@ Economical use of data. Design for minimal data usage and be judicious in what y
 
 - [Service Worker Demos](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker)
 - [Service Worker, What are you?](https://kosamari.com/notes/Service-Worker-what-are-you)
+- [Fresher service workers, by default in Chrome 68](https://developers.google.com/web/updates/2018/06/fresher-sw)
 
 The service worker is like a shared worker, but whereas pages control a shared worker, a service worker controls pages.
 
