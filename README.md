@@ -45,7 +45,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 ![Polymer Logo](/assets/images/p-logo.png)
 ### Polymer
 #### [Polymer PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit)
-(Demo)[https://pwa-starter-kit.appspot.com/]
+[Demo](https://pwa-starter-kit.appspot.com/)
 ##### What is Included
 - All the PWA goodness (manifest, service worker)
 - Responsive layout
@@ -58,6 +58,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 - Unit and integrating testing starting points
 - Documentation about other advanced patterns.
 
+![Vue.js Logo](vuejs-logo.png)
 ### Vue.js
 #### [PWA Starter Template](https://github.com/vuejs-templates/pwa)
 `vue init pwa my-project`
