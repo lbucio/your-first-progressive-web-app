@@ -19,12 +19,14 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 ### Resources
 - [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
 - [Hacker News readers as Progressive Web Apps](https://hnpwa.com/)
+- [PWA Rocks](https://pwa.rocks/)
 - 🎥[Production Progressive Web Apps With JavaScript Frameworks](https://www.youtube.com/watch?v=aCMbSyngXB4)
 
 #### Offline
 - 📚[Offline Web Apps - Udacity Course](https://www.udacity.com/course/offline-web-applications--ud899)
   - IndexedDB & Service Worker
 - [Service Worker Cookbok](https://serviceworke.rs/)
+- [Offline Cookbook](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/)
 
 #### Animations
 - [CSS Triggers](https://csstriggers.com/)
@@ -55,6 +57,7 @@ Lighthouse is an open-source tool from Google that audits a web app for PWA feat
 ### Polymer
 #### [Polymer PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit)
 [Demo](https://pwa-starter-kit.appspot.com/)
+
 🎥[Google I/O Video](https://www.youtube.com/watch?v=we3lLo-UFtk)
 ##### What is Included
 - All the PWA goodness (manifest, service worker)
