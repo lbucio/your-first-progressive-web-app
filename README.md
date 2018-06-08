@@ -6,10 +6,13 @@ Open West 2018
 ## Getting Started
 
 ### Reliable
+- [Service Worker]()
 - [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync)
 
 ### Secure
 - Served over HTTPS
+  - Geolocation API
+  - Service Worker
 
 ### Fast
 - [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
@@ -21,8 +24,6 @@ Open West 2018
   - [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
   - [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 
-1. App Shell Model
-3. Service Worker
 4. Cache Strategy
 
 ## PWA Support
@@ -64,6 +65,10 @@ Economical use of data. Design for minimal data usage and be judicious in what y
 - [Service Worker Demos](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker)
 - [Service Worker, What are you?](https://kosamari.com/notes/Service-Worker-what-are-you)
 
+The service worker is like a shared worker, but whereas pages control a shared worker, a service worker controls pages.
+
+Being able to run JavaScript before a page exists opens up many possibilities, and the first feature we're adding is interception and modification of navigation and resource requests. This lets you tweak the serving of content, all the way up to treating network-connectivity as an enhancement. It's like having a proxy server running on the client.
+
 ## Web App Manifest
 - [Browser Support](https://caniuse.com/#search=web%20app%20manifest)
   - Chrome **Enabled by Default**
@@ -71,9 +76,22 @@ Economical use of data. Design for minimal data usage and be judicious in what y
   - [Firefox](https://platform-status.mozilla.org/#app-manifest) **In Development**
   - [Webkit](https://webkit.org/status/#specification-web-app-manifest) **In Development**
   
+The web app manifest is a simple JSON file that tells the browser about your web application and how it should behave when 'installed' on the users mobile device or desktop. Having a manifest is required by Chrome to show the Add to Home Screen prompt.
+  
 #### Safari
 - [Configuring Web Applications](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 - [Add to Homescreen elements for Safari on iOS](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#add_to_homescreen_elements_for_safari_on_ios)
+
+Safari still does not quite have full support for configuring PWA to act like native apps.
+
+---
+
+## Browser API's
+- [Credential Management API](https://developers.google.com/web/fundamentals/security/credential-management/)
+  - [Demo](https://credential-management-sample.appspot.com/)
+- [Geolocation API](https://developers.google.com/web/fundamentals/native-hardware/user-location/)
+- [Device Orientation & Motion](https://developers.google.com/web/fundamentals/native-hardware/device-orientation/)
+- [Payment Request API](https://developers.google.com/web/fundamentals/payments/)
 
 --- 
 
