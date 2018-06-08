@@ -13,11 +13,14 @@ Open West 2018
 - [Served over HTTPS](https://developers.google.com/web/fundamentals/security/)
   - Geolocation API
   - Service Worker
+  - Push
+  - Background Sync
 - [Content Security Policy](https://developers.google.com/web/fundamentals/security/csp/)
 - [Preventing Mixed Content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content)
 
 ### Fast
 - [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
+- [Cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache)
 
 ### Engaging
 - [Configured Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
@@ -32,6 +35,13 @@ Open West 2018
 
 ## PWA Support
 - [Is Service Worker Ready](https://jakearchibald.github.io/isserviceworkerready/index.html#moar)
+- Service Worker - **Supported by Major Browsers**
+- [Promises](https://caniuse.com/#feat=promises) - **Supported by Major Browsers**
+- [Fetch API](https://caniuse.com/#feat=fetch) - **Supported by Major Browsers**
+- [Cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache#Browser_compatibility) - **Supported by Major Browsers**
+- Background Sync - **Chrome Support**
+  - [Firefox - Bug Report](https://bugzilla.mozilla.org/show_bug.cgi?id=1217544)
+  - [Edge - In Development](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/backgroundsyncapi/)
 
 ---
 
