@@ -26,7 +26,7 @@ Open West 2018
   - [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
   - [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 
-### Courses 📚
+## Courses 📚
 - 📚[Asynchronous JavaScript Requests](https://www.udacity.com/course/asynchronous-javascript-requests--ud109)
 - 📚[ES6 - JavaScript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)
 
